@@ -2,5 +2,8 @@
 
 export default (req, res) => {
   res.statusCode = 200
-  res.json({ name: 'John Doe' })
+  res.json([
+    { name: 'Pretend you got files from s3 from this API' },
+    { name: 'fu charl' },    
+  ])
 }
